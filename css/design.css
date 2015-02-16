@@ -1,0 +1,86 @@
+.note {
+	height: 35px;
+	width: 35px;
+	background-color: lightgrey;
+	margin: 3px;
+	float: left;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-size: 27px;
+	text-align: center;
+	color: white;
+}
+.name {
+	min-height: 35px;
+	width: 53px;
+	background-color: lightgrey;
+	margin: 3px;
+	float: left;
+	color: white;
+	font-variant: small-caps;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 25px;
+}`
+}
+.name span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.note:hover {
+	background-color: #CEF6EC;
+}
+.line {
+	clear: left;
+	padding-left: 20%;
+}
+.space {
+	padding-bottom: 3%;
+}
+.text{
+	clear: left;
+	padding-left: 20%;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-size: 50px;
+}
+
+#info {
+	clear:right;
+	float: right;
+	margin-top: -120px;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-size: 30px;
+	text-align: right;
+}
+
+#good {
+	background-color: green;
+}
+
+#sad {
+	background-color: red;
+}
+
+#good:hover {
+	background-color: lightgreen;
+}
+
+#sad:hover {
+	background-color: #FF9090;
+}
+
+#logo {
+	width: 500px;
+}
+
+#infoTitle {
+	font-size: 50px;
+}
+
+.infotxt {
+	color: darkgrey;
+	max-width: 340px;
+}
