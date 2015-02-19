@@ -163,7 +163,8 @@ function DrumBeat(intensity) {
 }
 
 function playDrum(buffer, time) {
-	console.log("playDrum -> HULLA!\n");
+	console.log("playDrum!\n");
+	console.log(time);
 	var source = context.createBufferSource();
 	source.buffer = buffer;
 	source.connect(context.destination);
