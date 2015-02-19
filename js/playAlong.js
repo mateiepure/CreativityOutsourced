@@ -108,8 +108,8 @@ document.addEventListener('keydown', function (event) {
 		paPlay(player.getBuffer(), freq[5]*2, 0);
 	}
 });
-document.addEventListener('keydown', function (event) {
+/*document.addEventListener('keydown', function (event) {
 	if (event.keyCode == 32) {
-		//play();
+		play();
 	}
-});
+});*/
