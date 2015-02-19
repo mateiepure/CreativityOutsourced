@@ -25,6 +25,7 @@ function loadBuffers() {
 	}
 
 	bufferLoader = new BufferLoader(context, paths, function(bufferList) {
+		console.log("CheckCheck!!!\n");
 		for (var i = 0; i < bufferList.length; i++) {
 			var buffer = bufferList[i];
 			var name = names[i];
