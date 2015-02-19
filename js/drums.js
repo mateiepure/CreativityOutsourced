@@ -163,12 +163,10 @@ function DrumBeat(intensity) {
 }
 
 function playDrum(buffer, time) {
-	console.log("playDrum!\n");
-	console.log(time);
 	var source = context.createBufferSource();
 	source.buffer = buffer;
 	source.connect(context.destination);
-	//source.noteOn(time);
+	source.noteOn(time);
 }
 
 DrumBeat.prototype.play = function(beatNumber, time) {
