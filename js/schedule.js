@@ -52,16 +52,6 @@ function scheduleNote(beatNumber, time) {
         thrills.play(beatNumber, time);*/
 }
 
-function scheduler() {
-	// while there are notes that will need to play before the next interval, 
-	// schedule them and advance the pointer.
-	while (nextNoteTime < context.currentTime + scheduleAheadTime) {
-		scheduleNote(current16thNote, nextNoteTime);
-		nextNote();
-	}
-	timerID = window.setTimeout(scheduler, lookahead);
-}
-
 function play() {
     //changePlaySign();
 
@@ -82,6 +72,16 @@ function play() {
 		window.clearTimeout(timerID);
 		return "play";
 	}
+}
+
+function scheduler() {
+	// while there are notes that will need to play before the next interval, 
+	// schedule them and advance the pointer.
+	while (nextNoteTime < context.currentTime + scheduleAheadTime) {
+		scheduleNote(current16thNote, nextNoteTime);
+		nextNote();
+	}
+	timerID = window.setTimeout(scheduler, lookahead);
 }
 
 function keepTime() {
