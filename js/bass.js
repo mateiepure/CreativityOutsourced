@@ -67,6 +67,8 @@ function BassLine(intensity) {
 }
 
 BassLine.prototype.play = function(beatNumber, time) {
+	console.log("playBass!\n");
+	console.log(time);
 	var measure = Math.floor(beatNumber/16);
 	var number = Math.floor(beatNumber%16);
 
