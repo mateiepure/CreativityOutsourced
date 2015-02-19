@@ -161,7 +161,7 @@ function changeDrum(type, time, line) {
 		element.setAttribute("onMouseOut", "this.style.background = 'lightgrey'");
 	}
 }
-/*
+
 function initScene() {
 	var commandSpace = document.createElement("div");
 	commandSpace.setAttribute("id", "commands");
@@ -177,7 +177,7 @@ function initScene() {
 	playButton.appendChild(pl);
 	commandSpace.appendChild(playButton);
 }
-*/
+
 function initDrums(toAdd, line) {
 	var element = document.getElementById("drums");
 	if (element) {
