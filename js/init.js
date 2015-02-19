@@ -3,11 +3,11 @@ var context = null;
 var player = null;
 
 var BUFFERS_TO_LOAD = {
-  kick: 'CreativityOutsourced/sounds/kick.wav',
-  snare: 'CreativityOutsourced/sounds/snare.wav',
-  hihat: 'CreativityOutsourced/sounds/hihat.wav',
-  bass: 'CreativityOutsourced/sounds/bass.wav',
-  epiano: 'CreativityOutsourced/sounds/epiano.wav'
+  kick: 'sounds/kick.wav',
+  snare: 'sounds/snare.wav',
+  hihat: 'sounds/hihat.wav',
+  bass: 'sounds/bass.wav',
+  epiano: 'sounds/epiano.wav'
 //  guitar: 'TODO'
 };
 
